@@ -66,6 +66,6 @@ void loop() {
   dp = ((encoder.getCount() / (75.81 * 6) * 2 * M_PI) -p);
   Serial.print(" ");
   Serial.println(dt*dp);
-  Serial.println(output/36);
+  Serial.println(output);
   
 }
